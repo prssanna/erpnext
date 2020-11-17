@@ -7,11 +7,6 @@
   },
   {
    "hidden": 0,
-   "label": "Agriculture",
-   "links": "[\n    {\n        \"label\": \"Crop\",\n        \"name\": \"Crop\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Crop Cycle\",\n        \"name\": \"Crop Cycle\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Location\",\n        \"name\": \"Location\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Fertilizer\",\n        \"name\": \"Fertilizer\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
-  },
-  {
-   "hidden": 0,
    "label": "Education",
    "links": "[\n    {\n        \"label\": \"Student\",\n        \"name\": \"Student\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Course\",\n        \"name\": \"Course\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Instructor\",\n        \"name\": \"Instructor\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Room\",\n        \"name\": \"Room\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
   },
@@ -43,7 +38,12 @@
   {
    "hidden": 0,
    "label": "Data Import and Settings",
-   "links": "[\n    {\n        \"description\": \"Import Data from CSV / Excel files.\",\n        \"icon\": \"octicon octicon-cloud-upload\",\n        \"label\": \"Import Data\",\n        \"name\": \"Data Import\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Import Chart of Accounts from CSV / Excel files\",\n        \"label\": \"Chart of Accounts Importer\",\n        \"label\": \"Chart of Accounts Importer\",\n        \"name\": \"Chart of Accounts Importer\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Letter Heads for print templates.\",\n        \"label\": \"Letter Head\",\n        \"name\": \"Letter Head\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Add / Manage Email Accounts.\",\n        \"label\": \"Email Account\",\n        \"name\": \"Email Account\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
+   "links": "[\n    {\n        \"description\": \"Import Data from CSV / Excel files.\",\n        \"icon\": \"octicon octicon-cloud-upload\",\n        \"label\": \"Import Data\",\n        \"name\": \"Data Import\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Import Chart Of Accounts from CSV / Excel files\",\n        \"labe\": \"Chart Of Accounts Importer\",\n        \"label\": \"Chart of Accounts Importer\",\n        \"name\": \"Chart of Accounts Importer\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Letter Heads for print templates.\",\n        \"label\": \"Letter Head\",\n        \"name\": \"Letter Head\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"description\": \"Add / Manage Email Accounts.\",\n        \"label\": \"Email Account\",\n        \"name\": \"Email Account\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
+  },
+  {
+   "hidden": 1,
+   "label": "Agriculture",
+   "links": "[\n    {\n        \"label\": \"Crop\",\n        \"name\": \"Crop\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Crop Cycle\",\n        \"name\": \"Crop Cycle\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Location\",\n        \"name\": \"Location\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    },\n    {\n        \"label\": \"Fertilizer\",\n        \"name\": \"Fertilizer\",\n        \"onboard\": 1,\n        \"type\": \"doctype\"\n    }\n]"
   }
  ],
  "category": "Modules",
@@ -54,10 +54,11 @@
  "docstatus": 0,
  "doctype": "Desk Page",
  "extends_another_page": 0,
+ "hide_custom": 0,
  "idx": 0,
  "is_standard": 1,
  "label": "Home",
- "modified": "2020-05-11 10:20:37.358701",
+ "modified": "2020-11-17 13:53:12.495904",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Home",
